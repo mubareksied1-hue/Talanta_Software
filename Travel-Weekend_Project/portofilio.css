@@ -1,0 +1,10 @@
+.container{
+    grid-template-columns: repeat(auto-fit, min max(200px,1fr));
+}
+.featured-items{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.densepacking{
+    grid-auto-flow: dense;
+}

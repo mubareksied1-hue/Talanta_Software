@@ -1,0 +1,16 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+ul{
+    gap: 200px;
+}
+a:active{
+        color:aquamarine;
+}
+a:focus{
+    color: #FF3737;
+}
+a:hover{
+    color: #6367FF;
+}

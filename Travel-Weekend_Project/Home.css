@@ -1,0 +1,272 @@
+nav{
+      display: flex;
+      gap: 35px;
+      justify-content: center;
+      align-items: center;
+      background-color:white;
+      border-radius: 30px;
+      
+}
+nav a{
+    /* margin-right: 20px; */
+    text-decoration: none;
+    color: black;
+    gap: 40px;
+}
+body{
+    background-color: #0B0909;
+    color:#0B0909;
+    background-repeat: no-repeat;
+}
+nav ul{
+   display: flex;
+   list-style: none;
+      gap: 40px; 
+      padding: 0;
+      margin: 60px;
+}
+.logo{
+    color:black;
+    gap: 8px;
+    display: flex;
+    text-wrap: nowrap;
+    /* align-items: center; */
+    font-size: 18px;
+    font-weight: bold;
+}
+.icons{
+    margin-left: auto;
+}
+.Hero{
+    display: flex;
+    background-image: 
+    url(/Travel-Weekend_Project/images/download\ \(22\).jpeg);
+    background-position: center;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.Hero h1{
+    font-size: 55px;
+    max-width: 900px;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 5px #DDDDDD;
+}
+.Hero p{
+    background-position: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 0%;
+    max-width: 900px;
+    text-shadow:#DDDDDD;
+    color: #FFFCE1;
+}
+.Hero button{
+     padding: 15px 30px;
+     text-align: center;
+     align-items: center;
+     border-radius: 400px;
+     border-color: black;
+     margin-bottom: auto;
+     cursor: pointer;
+}
+button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Hero button:hover:first-child{
+    background: #000000;
+    color: #ffffff;
+}
+
+.Hero button:last-child{
+    background: transparent;
+    color:#ffffff;
+    border: 1px solid white;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.about-images{
+    position:relative;
+    width: 500px;
+    height: 500px;
+}
+.about-images img:first-child{
+    width:400px;
+    height: 450px;
+    object-fit: cover;
+}
+.about-images img:last-child{
+    position:absolute;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+    transform: rotate(10deg);
+}
+.about{
+    display: flex;
+    align-items: center;
+    gap:70px;
+    padding: 60px;
+    background: white;
+}
+.about button{
+        border-radius: 400px;
+        padding: 15px 10px;
+}
+.about button:hover{
+    background: #224248;
+    color: #005268;
+}
+#btn{
+    color:#DDDDDD;
+    text-align:center;
+    justify-items: center;
+    align-items: center;
+}
+.Vidio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px;
+    padding: 50px;
+    /* background: #DDDDDD; */
+    color:#000000;
+}
+.Vidio-media-1{
+    position: relative;
+}
+.play-btn{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:80px;
+    height:80px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    font-size: 25px;
+}
+.Vidio-media-1 h3{
+    /* text-align: center; */
+    /* background:#DDDDDD; */
+    color:aquamarine;
+}
+.Vidio-media-1 p{
+    /* background: #DDDDDD; */
+    color:aquamarine;
+}
+.Vidio-media-2 h3{
+    color: aquamarine;
+}
+.Vidio-media-2 p{
+    color:aquamarine;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card button{
+    padding:9px;
+    text-align: center;
+    color: #24B1B1;
+    background: transparent;
+}
+#btn1{
+    text-align:center;
+    color:#DDDDDD;
+}
+.icons{
+    font-size:40px;
+}
+.box{
+    display: grid;
+    background-color: #000;
+    grid-template-columns:repeat( 3, 1fr);
+    gap: 25px;
+    padding:50px;
+    min-height: 300px;
+}
+.box-1{
+    border: 1px solid #ddd;
+    font-size: 15px;
+    padding:30px;
+    color:aquamarine;
+    text-shadow: #24B1B1;
+}
+.box-1 i{
+    text-align: center;
+    gap:25px;
+    font-size: 50px;
+    display: block;
+    margin-bottom: 15px;
+}
+.box-1 h2{
+    text-align: center;
+    font-size: 30px;
+    /* margin: 10px 0; */
+}
+
+
+.box-1 p{
+    text-align: center;
+    font-size: 16px;
+    /* margin: 0; */
+}
+.review{
+    background-color: #ffffff;
+    padding: 40px;
+    margin-top: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+.review > h1{
+    color:#000000;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.review-text :last-child{
+    display: flex;
+    justify-content: center;
+}
+.review-image > img{
+    display:flex;
+    /* justify-content: right; */
+    width:300px;
+    height:300px;
+    object-fit:cover;
+}
+.review p{
+    font-size: 20px;
+    color:#000000;
+    /* line-height: 1.6; */
+}
+.review-text{
+    width:50%;
+}
+.review-image{
+    display:flex;
+    justify-content: right;
+    width:50%;
+}
+.review  h3{
+    font-size: 50px;
+    line-height: 1.9;
+    color:black;
+}
+
