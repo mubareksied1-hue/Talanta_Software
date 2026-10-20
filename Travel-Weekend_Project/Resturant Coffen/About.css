@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+.container h1{
+    color: maroon;
+}
+.container nav{
+    display:flex;
+    align-items: flex-start;
+    list-style: none;
+}
+.container a{
+    text-decoration: none;
+    color:#4b1a1a;
+}
+.container ul{
+    display: flex;
+    gap:30px;
+}
+.container button{
+    background-color: #5b0010;
+    color: #f5d76e;
+    border: 1px solid rgba(0, 000, 00, 1);
+    padding: 15px 30px;
+    border-radius: 30px;
+}
